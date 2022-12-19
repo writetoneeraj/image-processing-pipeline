@@ -1,0 +1,17 @@
+name: rsna
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8.3
+  - pandas
+  - numpy
+  - pydicom
+  - tqdm
+  - matplotlib
+  - pip
+  - opencv
+  - scikit-learn
+  - albumentations
+  - tensorflow=2.11.0
+  - pip:
