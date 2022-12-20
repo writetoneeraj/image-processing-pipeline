@@ -6,9 +6,9 @@ import random
 
 from common.commonconfigparser import CommonConfigParser
 from common.log.log_utility import intialise_logging
-from model.datagenerator import DataGenerator
+from training.datagenerator import DataGenerator
 from imagepreprocess.preprocess_images import PreProcessor
-import src.model.modelbuilder as builder
+import training.modelbuilder as builder
 import tensorflow as tf
 
 
